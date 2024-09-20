@@ -1,0 +1,14 @@
+# Ignore the Data folder and all its contents
+Data/
+
+# Ignore log files
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore VS Code settings folder
+.vscode/
+
+

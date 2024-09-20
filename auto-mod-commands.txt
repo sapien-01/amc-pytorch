@@ -1,0 +1,18 @@
+Python
+classify_cnn_pic.py: transform the received signal to image in I/Q domain and train CNN model
+
+python3 classify_cnn_pic.py [training data] [testing data] [model size]
+e.g.: python3 classify_cnn_pic.py ../Data/raw1000_1000_8.mat ../Data/raw500_1000_8.mat 2
+classify_cnnpolar_pic.py: transform the received signal to image in polar domain and train CNN model
+
+Adjust whether using Gaussian distribution to generate image
+python3 classify_cnnpolar_pic.py [training data] [testing data] [model size]
+e.g.: python3 classify_cnnpolar_pic.py ../Data/raw1000_1000_8.mat ../Data/raw500_1000_8.mat 2
+util.py
+
+Adjust the generated image with accumulated information or not
+
+
+python3 classify-amc-1.py ../Data/raw1000_1000_8.mat ../Data/raw500_1000_8.mat 2
+
+
