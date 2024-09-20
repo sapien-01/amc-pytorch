@@ -154,6 +154,7 @@ if __name__ == "__main__":
     resolution = 36
     t = int(2**(int(sys.argv[3])))
     main(train_path, test_path, resolution, t)
+    # don't run it now
     # pdb.run('main(train_path, test_path, resolution, t)')
     
     # # Check if enough arguments are passed
