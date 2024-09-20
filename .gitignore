@@ -11,4 +11,7 @@ Thumbs.db
 # Ignore VS Code settings folder
 .vscode/
 
-
+# Ignore compiled files
+*.class
+*.o
+*.pyc
